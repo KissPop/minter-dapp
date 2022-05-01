@@ -1,4 +1,4 @@
-const contractAddress = "0x7E024508909069A4586c355c4A14915d49b6cA6F"; //Replace with your own contract address
+const contractAddress = "0x0CDcd6A29941e9e458e93BA10A7cD077D796C3AB"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Kiss Pop Society NFT Project!!";
