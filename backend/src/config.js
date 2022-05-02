@@ -56,8 +56,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'KissPopSociety';
-const CONTRACT_SYMBOL = 'KPS';
+const CONTRACT_NAME = 'KissPopSocietyV2';
+const CONTRACT_SYMBOL = 'KPSV';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
 const TREASURY_ADDRESS = '0xF646b6a64a574B6330B0f435443a95b86A023855';
@@ -72,15 +72,15 @@ const PUBLIC_MINT_START_DATE = "2022-05-20T15:30:48+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = "2022-04-20T15:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xF646b6a64a574B6330B0f435443a95b86A023855"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeicghljy5k4ussf3syy6oqownu7lfljukhiai6gsusm7cwksy4r7o4/"; // only update if you want to manually set the base uri
-const PREREVEAL_TOKEN_URI = "ipfs://bafkreiflal6kr3spdkb4ydmdpq7zzfcyp3nenli3lqi4qemxu3b4rnjdsi"; // only update if you want to manually set the prereveal token uri
+const BASE_URI = null; // only update if you want to manually set the base uri
+const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0xF646b6a64a574B6330B0f435443a95b86A023855"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x0CDcd6A29941e9e458e93BA10A7cD077D796C3AB"; // If you want to manually include it
+let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Kiss Pop Society is a representation of the vivid colors that the feminine brings, to a black and white world. Which coloful lady will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidmlgv2cnyvn3ig5d7h5r2ojczhmlcblyjjlribr6z4sjo2fwysxe"; // Replace with your generic image that will display for all NFTs pre-reveal.
